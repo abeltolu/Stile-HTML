@@ -1,0 +1,307 @@
+<html>
+    <head>
+        <title>Stile - Homepage</title>
+        <meta name="robots" content="index,follow"/>
+        <meta name="author" content="Tolulope Adetula - abeltolu[at]gmail" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet"/>
+
+        <!--Lazy load Ionicons-->
+        <link rel='preload' href='https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css' as='style' onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css"></noscript>
+    </head>
+    <body>
+
+        <div class="header">
+            <div class="logo__container">
+                <a href="index.html">Stile</a>
+                <a class="toggle_menu">
+                    <i class="icon ion-md-menu"></i>
+                </a>
+            </div>
+            <div class="menu__container">
+                <ul>
+                    <li><a class="active">Collection</a></li>
+                    <li><a>Catalog</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="quickmenu__container">
+                <a class="search_icon_text">
+                    <i class="icon ion-md-search"></i>
+                </a>
+                <div class="menu_icon_text my_account">
+                    <a href="javacsript:;"><i class="icon ion-md-contact"></i> My Account</a>
+                    <ul class="dropdown">
+                        <li><a href="#">My Profile</a></li>
+                        <li><a href="#">My Wishlist</a></li>
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                </div>
+                <a class="menu_icon_text">
+                    <i class="icon ion-md-cart"></i> Cart
+                </a>
+            </div>
+        </div>
+
+        <section class="content">
+            <div class="container">
+                <div class="content_header text-center">
+                    <h1>New arrivals</h1>
+                    <div class="breadcrumb">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Collection</a></li>
+                            <li><a href="">New arrivals</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="product_section">
+                    <div class="left_sidebar">
+                        
+                        <div class="sort_by_select">
+                            <label>Sort By: </label>
+                            <select>
+                                <option value="default">Default</option>
+                            </select>
+                        </div>
+
+                        <div class="category_listings">
+                            <div class="category_section">
+                                <div class="cs__header">
+                                    <h1>Categories</h1>
+                                    <i class="icon ion-md-add"></i>
+                                </div>
+                                <div class="cs__body">
+                                    <ul>
+                                        <li><a href="">Tables</a></li>
+                                        <li><a href="">Lamps</a></li>
+                                        <li><a href="">Chairs</a></li>
+                                        <li><a href="">Sofas</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <div class="category_section">
+                                <div class="cs__header">
+                                    <h1>Filter By</h1>
+                                    <i class="icon ion-md-add"></i>
+                                </div>
+                                <div class="cs__body">
+                                    <div class="color_picker">
+                                        <p>Color</p>
+                                        <div class="colors">
+                                            <div class="circle" style="background: #ebd793"></div>
+                                            <div class="circle" style="background: #6d8eb7"></div>
+                                            <div class="circle" style="background: #ffffff"></div>
+                                            <div class="circle" style="background: #cf6b67"></div>
+                                            <div class="circle" style="background: #798760"></div>
+                                            <div class="circle" style="background: #876fa1"></div>
+                                        </div>
+                                    </div>
+                                    <div class="price_slider">
+                                        <p>Price Range</p>
+                                        <input type="range" min="1" max="100" value="50" class="slider" id="priceRange">
+                                        <div class="range-minmax">
+                                            <span>$0</span><span>$6000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="category_section">
+                                <div class="cs__header">
+                                    <h1>Other</h1>
+                                    <i class="icon ion-md-add"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product_section_body">
+
+                        <div class="sort_by_grid">
+                            <label>View</label>
+                            <a href="" class="active"><i class="icon ion-ios-list"></i></a>
+                            <a href=""><i class="icon ion-md-apps"></i></a>
+                        </div>
+
+                        <div class="products_list">
+                            <div class="product" onclick="window.location.href = 'product.html'">
+                                <div class="product_img">
+                                    <div class="bg" style="background: url(images/index/1.jpg)"></div>
+                                </div>
+                                <div class="product_details">
+                                    <h1>Designer Chair</h1>
+                                    <p class="price">$799</h1>
+                                </div>
+                                <div class="cart-info">
+                                    <a href="product.html" title="Discover">Discover</a>
+                                    <a href="javascript:;" title="Add to Cart" class="add_to_cart">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product" onclick="window.location.href = 'product.html'">
+                                <a href="" class="sale_tag">Sale</a>
+                                <div class="product_img">
+                                    <div class="bg" style="background: url(images/index/2.jpg)"></div>
+                                </div>
+                                <div class="product_details">
+                                    <h1>Designer Chair</h1>
+                                    <p class="price">$799</h1>
+                                </div>
+                                <div class="cart-info">
+                                    <a href="product.html" title="Discover">Discover</a>
+                                    <a href="javascript:;" title="Add to Cart" class="add_to_cart">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product" onclick="window.location.href = 'product.html'">
+                                <div class="product_img">
+                                    <div class="bg" style="background: url(images/index/3.jpg)"></div>
+                                </div>
+                                <div class="product_details">
+                                    <h1>Designer Chair</h1>
+                                    <p class="price">$799</h1>
+                                </div>
+                                <div class="cart-info">
+                                    <a href="product.html" title="Discover">Discover</a>
+                                    <a href="javascript:;" title="Add to Cart" class="add_to_cart">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product" onclick="window.location.href = 'product.html'">
+                                <a href="" class="sale_tag">Sale</a>
+                                <div class="product_img">
+                                    <div class="bg" style="background: url(images/index/4.jpg)"></div>
+                                </div>
+                                <div class="product_details">
+                                    <h1>Designer Chair</h1>
+                                    <p class="price">$799</h1>
+                                </div>
+                                <div class="cart-info">
+                                    <a href="product.html" title="Discover">Discover</a>
+                                    <a href="javascript:;" title="Add to Cart" class="add_to_cart">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product" onclick="window.location.href = 'product.html'">
+                                <div class="product_img">
+                                    <div class="bg" style="background: url(images/index/5.jpg)"></div>
+                                </div>
+                                <div class="product_details">
+                                    <h1>Designer Chair</h1>
+                                    <p class="price">$799</h1>
+                                </div>
+                                <div class="cart-info">
+                                    <a href="product.html" title="Discover">Discover</a>
+                                    <a href="javascript:;" title="Add to Cart" class="add_to_cart">Add to Cart</a>
+                                </div>
+                            </div>
+                            <div class="product" onclick="window.location.href = 'product.html'">
+                                <div class="product_img">
+                                    <div class="bg" style="background: url(images/index/6.jpg)"></div>
+                                </div>
+                                <div class="product_details">
+                                    <h1>Designer Chair</h1>
+                                    <p class="price">$799</h1>
+                                </div>
+                                <div class="cart-info">
+                                    <a href="product.html" title="Discover">Discover</a>
+                                    <a href="javascript:;" title="Add to Cart" class="add_to_cart">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="more_btn">
+                            <p>More +</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter_cont">
+                    <div class="newsletter_text">
+                        <h1>Join our newsletter</h1>
+                        <p>Subscribe today for free and save 10% on your first purchase</p>
+                    </div>
+                    <div class="newsletter_form">
+                        <input placeholder="Your email" />
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer pb-5">
+            <div class="container">
+                <div class="footer_section">
+                    <div class="footer_links">
+                        <div class="footer_link_group">
+                            <h1>Navigate</h1>
+                            <a href="">About Us</a>
+                            <a href="">Blog</a>
+                            <a href="">Contact Us</a>
+                            <a href="">Sitemap</a>
+                        </div>
+                        <div class="footer_link_group">
+                            <h1>Categories</h1>
+                            <a href="">New Arrivals</a>
+                            <a href="">Featured</a>
+                            <a href="">Catalog</a>
+                            <a href="">Popular Brands</a>
+                        </div>
+                        <div class="footer_link_group">
+                            <h1>Collection</h1>
+                            <a href="">Tables</a>
+                            <a href="">Lamps</a>
+                            <a href="">Chairs</a>
+                            <a href="">Sofas</a>
+                        </div>
+                    </div>
+                    <div class="footer_address">
+                        <h1 class="main_address">
+                            123 Widget Street<br>
+                            Acmeville, AC 12345
+                        </h1>
+                        <p>hello@stilecompany.co</p>
+                        <p>+1-512-758-7588</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="footer_copyright">
+                    <div class="copyright_text">
+                        <p>Copyright &copy; 2017 Stile. by Selectlayers Inc. All Rights Reserved. | Powered by BigCommerce</p>
+                    </div>
+                    <div class="social_icons">
+                        <ul>
+                            <li>Get Social</li>
+                            <li><a href=""><i class="icon ion-logo-twitter"></i></a></li>
+                            <li><a href=""><i class="icon ion-logo-facebook"></i></a></li>
+                            <li><a href=""><i class="icon ion-logo-pinterest"></i></a></li>
+                            <li><a href=""><i class="icon ion-logo-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!--Credits-->
+         <div id="footer-note-bar" class="fixed bottom">
+            <p>
+                <u>Credits:</u>
+            </p>
+
+            <ul>
+                <li>Design: <a href="https://dribbble.com/Hajdisaur" target="_blank">Dalibor Hajdinjak</a>. You can find it <a href="https://dribbble.com/shots/3908696-Stile-Theme-Products/attachments/890097" target="_blank">here</a>.</li>
+
+                <li>Images: <a href="https://joybird.com" target="_blank">Joybird.com</a></li>
+
+                <li>Coding: Tolulope Adetula (<a href="mailto:abeltolu@gmail.com">abeltolu[at]gmail</a>)</li>
+            </ul>
+        </div>
+    </body>
+</html>
