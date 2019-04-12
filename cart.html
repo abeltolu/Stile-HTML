@@ -1,0 +1,259 @@
+<html>
+    <head>
+        <title>Stile - Product details</title>
+        <meta name="robots" content="index,follow"/>
+        <meta name="author" content="Tolulope Adetula - abeltolu[at]gmail" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet"/>
+
+        <!--Lazy load Ionicons-->
+        <link rel='preload' href='https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css' as='style' onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css"></noscript>
+    </head>
+    <body>
+        
+        <div class="header">
+            <div class="logo__container">
+                <a href="index.html">Stile</a>
+                <a class="toggle_menu">
+                    <i class="icon ion-md-menu"></i>
+                </a>
+            </div>
+            <div class="menu__container">
+                <ul>
+                    <li><a class="active">Collection</a></li>
+                    <li><a>Catalog</a></li>
+                    <li><a>About Us</a></li>
+                    <li><a>Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="quickmenu__container">
+                <a class="search_icon_text">
+                    <i class="icon ion-md-search"></i>
+                </a>
+                <div class="menu_icon_text my_account">
+                    <a href="javacsript:;"><i class="icon ion-md-contact"></i> My Account</a>
+                    <ul class="dropdown">
+                        <li><a href="#">My Profile</a></li>
+                        <li><a href="#">My Wishlist</a></li>
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                </div>
+                <a class="menu_icon_text">
+                    <i class="icon ion-md-cart"></i> Cart
+                </a>
+            </div>
+        </div>
+
+        <section class="content">
+            <div class="container">
+                <div class="content_header">
+                    <div class="breadcrumb">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Collection</a></li>
+                            <li><a href="">New arrivals</a></li>
+                            <li><a href="">Chic Sofa</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="cart__container">
+                    <div class="cart__container__header">
+                        <div class="cart__firstchild">Item</div>
+                        <div class="cart__firstchildhalf"></div>
+                        <div class="cart__secondchild">Price</div>
+                        <div class="cart__thirdchild">Quantity</div>
+                        <div class="cart__lastchild">Total</div>
+                    </div>
+                    <div class="cart__container__items">
+                        <div class="cart__single__item">
+                            <div class="cart__firstchild">
+                                <img src="images/cart/1.png" />
+                            </div>
+                            <div class="cart__firstchildhalf">
+                                <div class="pl-20">Manaro</div>
+                            </div>
+                            <div class="cart__secondchild">$1,499</div>
+                            <div class="cart__thirdchild">
+                                <div class="product_quantity">
+                                    <a href="javascript:;"><i class="icon ion-md-remove"></i></a>
+                                    <input value="1" placeholder="1" />
+                                    <a href="javascript:;"><i class="icon ion-md-add"></i></a>
+                                </div>
+                            </div>
+                            <div class="cart__lastchild">
+                                <span>$1,499</span>
+                                <i class="icon ion-md-close"></i>
+                            </div>
+                        </div>
+                        <div class="cart__single__item">
+                            <div class="cart__firstchild">
+                                <img src="images/cart/2.png" />
+                            </div>
+                            <div class="cart__firstchildhalf">
+                                <div class="pl-20">Manaro</div>
+                            </div>
+                            <div class="cart__secondchild">$1,499</div>
+                            <div class="cart__thirdchild">
+                                <div class="product_quantity">
+                                    <a href="javascript:;"><i class="icon ion-md-remove"></i></a>
+                                    <input value="1" placeholder="1" />
+                                    <a href="javascript:;"><i class="icon ion-md-add"></i></a>
+                                </div>
+                            </div>
+                            <div class="cart__lastchild">
+                                <span>$1,499</span>
+                                <i class="icon ion-md-close"></i>
+                            </div>
+                        </div>
+                        <div class="cart__single__item">
+                            <div class="cart__firstchild">
+                                <img src="images/cart/4.png" />
+                            </div>
+                            <div class="cart__firstchildhalf">
+                                <div class="pl-20">Manaro</div>
+                            </div>
+                            <div class="cart__secondchild">$1,499</div>
+                            <div class="cart__thirdchild">
+                                <div class="product_quantity">
+                                    <a href="javascript:;"><i class="icon ion-md-remove"></i></a>
+                                    <input value="1" placeholder="1" />
+                                    <a href="javascript:;"><i class="icon ion-md-add"></i></a>
+                                </div>
+                            </div>
+                            <div class="cart__lastchild">
+                                <span>$1,499</span>
+                                <i class="icon ion-md-close"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cart__footer__container">
+                    <div class="cart__coupon__container">
+                        <div class="coupon__container__text">
+                            <div class="coupon__icon">
+                                <i class="icon ion-md-pricetags"></i>
+                            </div>
+                            <div class="coupon__text">
+                                <h1>Discount / Promo Code</h1>
+                                <p>Don't have any yet? <a href="javascript:;">Checkout our discount programs.</a></p>
+                            </div>
+                        </div>
+                        <div class="coupon__container__input">
+                            <input class="coupon_input" placeholder="Enter your coupon code"/>
+                            <button type="button" class="coupon_btn">Apply</button>
+                        </div>
+                    </div>
+                    <div class="cart__price__container">
+                        <div class="cart__price__single">
+                            <span class="cp__start">Subtotal:</span>
+                            <span class="cp__end">$3,997</span>
+                        </div>
+                        <div class="cart__price__single cart__shipping">
+                            <span class="cp__start">Shipping:</span>
+                            <span class="cp__end">Add Info</span>
+                        </div>
+                        <div class="cart__price__single cart__total">
+                            <span class="cp__start">Total:</span>
+                            <span class="cp__end">$3,997</span>
+                        </div>
+                        <div class="cart__price__single cart_checkout">
+                            <div class="product_btns">
+                                <button class="add_to_cart">Check Out</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <div class="newsletter_cont">
+                    <div class="newsletter_text">
+                        <h1>Join our newsletter</h1>
+                        <p>Subscribe today for free and save 10% on your first purchase</p>
+                    </div>
+                    <div class="newsletter_form">
+                        <input placeholder="Your email" />
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer pb-5">
+            <div class="container">
+                <div class="footer_section">
+                    <div class="footer_links">
+                        <div class="footer_link_group">
+                            <h1>Navigate</h1>
+                            <a href="">About Us</a>
+                            <a href="">Blog</a>
+                            <a href="">Contact Us</a>
+                            <a href="">Sitemap</a>
+                        </div>
+                        <div class="footer_link_group">
+                            <h1>Categories</h1>
+                            <a href="">New Arrivals</a>
+                            <a href="">Featured</a>
+                            <a href="">Catalog</a>
+                            <a href="">Popular Brands</a>
+                        </div>
+                        <div class="footer_link_group">
+                            <h1>Collection</h1>
+                            <a href="">Tables</a>
+                            <a href="">Lamps</a>
+                            <a href="">Chairs</a>
+                            <a href="">Sofas</a>
+                        </div>
+                    </div>
+                    <div class="footer_address">
+                        <h1 class="main_address">
+                            123 Widget Street<br>
+                            Acmeville, AC 12345
+                        </h1>
+                        <p>hello@stilecompany.co</p>
+                        <p>+1-512-758-7588</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="footer_copyright">
+                    <div class="copyright_text">
+                        <p>Copyright &copy; 2017 Stile. by Selectlayers Inc. All Rights Reserved. | Powered by BigCommerce</p>
+                    </div>
+                    <div class="social_icons">
+                        <ul>
+                            <li>Get Social</li>
+                            <li><a href=""><i class="icon ion-logo-twitter"></i></a></li>
+                            <li><a href=""><i class="icon ion-logo-facebook"></i></a></li>
+                            <li><a href=""><i class="icon ion-logo-pinterest"></i></a></li>
+                            <li><a href=""><i class="icon ion-logo-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Credits-->
+        <div id="footer-note-bar" class="fixed bottom">
+            <p>
+                <u>Credits:</u>
+            </p>
+
+            <ul>
+                <li>Design: <a href="https://dribbble.com/Hajdisaur" target="_blank">Dalibor Hajdinjak</a>. You can find it <a href="https://dribbble.com/shots/3908696-Stile-Theme-Products/attachments/890097" target="_blank">here</a>.</li>
+
+                <li>Images: <a href="https://joybird.com" target="_blank">Joybird.com</a></li>
+
+                <li>Coding: Tolulope Adetula (<a href="mailto:abeltolu@gmail.com">abeltolu[at]gmail</a>)</li>
+            </ul>
+        </div>
+    </body>
+</html>
